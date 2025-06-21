@@ -1,4 +1,5 @@
 📊 **Subscription-Based Service Churn Prediction**
+
 #Data Analysis project on Subscription-based Service Churn Prediction
 
 This project uses logistic regression modeling to analyze and predict customer churn for a subscription-based digital service. It identifies behavioral and demographic features that influence whether a customer is likely to cancel their subscription, and supports organizations in developing targeted retention strategies.
