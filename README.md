@@ -1,10 +1,10 @@
-📊 **Subscription-Based Service Churn Prediction**
+# 📊 **Subscription-Based Service Churn Prediction**
 
-#Data Analysis project on Subscription-based Service Churn Prediction
+### Data Analysis project on Subscription-based Service Churn Prediction
 
 This project uses logistic regression modeling to analyze and predict customer churn for a subscription-based digital service. It identifies behavioral and demographic features that influence whether a customer is likely to cancel their subscription, and supports organizations in developing targeted retention strategies.
 
-🔍 **Objective**
+## 🔍 **Objective**
 
 To answer two key questions:
 
@@ -12,7 +12,7 @@ What is the likelihood of churn for a specific customer segment or profile?
 
 Which customer attributes or behaviors are most strongly associated with churn?
 
-🧾 **Dataset Source:** Kaggle - Predictive Analytics for Customer Churn Dataset 
+##🧾 **Dataset Source:** Kaggle - Predictive Analytics for Customer Churn Dataset 
 
 _**Link:** https://www.kaggle.com/datasets/safrin03/predictive-analytics-for-customer-churn-dataset?resource=download&select=train.csv_
 
@@ -20,7 +20,7 @@ _**Link:** https://www.kaggle.com/datasets/safrin03/predictive-analytics-for-cus
 
 **Final Used:** 2,226 observations (edited for computational feasibility and balance for the academic project)
 
-**🔧Sampling Process**
+## **🔧Sampling Process**
 
 To reduce dataset size while retaining meaningful insights:
 
@@ -34,7 +34,7 @@ Did this 2 times for a balanced data observations.
 
 This sampling process ensured balance in the churn-to-no-churn ratio while keeping model stability.
 
-🛠 **Tools & Techniques**
+## 🛠 **Tools & Techniques**
 
 **Software:** SAS
 
@@ -44,9 +44,9 @@ This sampling process ensured balance in the churn-to-no-churn ratio while keepi
 
 **Data Split:** 70% Training / 30% Testing
 
-**🧪 Methodology**
+## **🧪 Methodology**
 
-**✅Data Preprocessing**
+### **✅Data Preprocessing**
 
 Dummy variable creation for all categorical features
 
@@ -56,16 +56,16 @@ Multicollinearity check and removal (TotalCharges dropped due to high correlatio
 
 Outliers and Influential points were checked.
 
-**🔍Model Selection Approach**
+## **🔍Model Selection Approach**
 
 SAS supports three model selection methods for logistic regression, and all three were applied:
 
-**🔄Forward Selection**
+## **🔄Forward Selection**
 
 Predictors (12):
 AccountAge, MonthlyCharges, ViewingHoursPerWeek, AverageViewingDuration, ContentDownloadsPerMonth, UserRating, SupportTicketsPerMonth, d_subtype2, d_pay3, d_device3, d_genre2, d_ParentalControl
 
-**Model Metrics:**
+### **Model Metrics:**
 
 R²: 0.1654
 
@@ -73,7 +73,7 @@ AIC / SC: 1883.316 / 1952.889
 
 **Classification Threshold:** 0.55
 
-**Test Set Performance:**
+### **Test Set Performance:**
 
 True Positives (TP): 252
 
@@ -93,12 +93,12 @@ Precision: 72.83%
 
 F1-Score: 0.6933
 
-**🔁Stepwise Selection**
+## **🔁Stepwise Selection**
 
 Predictors (11):
 AccountAge, MonthlyCharges, ViewingHoursPerWeek, AverageViewingDuration, ContentDownloadsPerMonth, UserRating, SupportTicketsPerMonth, d_subtype2, d_device3, d_genre2, d_ParentalControl
 
-**Model Metrics:**
+### **Model Metrics:**
 
 R²: 0.1634
 
@@ -106,7 +106,7 @@ AIC / SC: 1885.181 / 1949.403
 
 Classification Threshold: 0.60
 
-**Test Set Performance:**
+### **Test Set Performance:**
 
 TP: 214
 
@@ -126,12 +126,12 @@ Precision: 73.79%
 
 F1-Score: 0.6379
 
-**🔃 Backward Elimination**
+## **🔃 Backward Elimination**
 
 Predictors (12):
 Includes AccountAge, MonthlyCharges, ViewingHoursPerWeek, AverageViewingDuration, ContentDownloadsPerMonth, UserRating, SupportTicketsPerMonth, d_subtype2, d_pay1, d_pay2, d_genre2, d_ParentalControl
 
-**Model Metrics:**
+### **Model Metrics:**
 
 R²: 0.1654
 
@@ -139,7 +139,7 @@ AIC / SC: 1883.380 / 1952.954
 
 Classification Threshold: (not specified, assumed 0.5)
 
-**Test Set Performance:**
+### **Test Set Performance:**
 
 TP: 213
 
@@ -159,7 +159,7 @@ Precision: 76.07%
 
 F1-Score: 0.6445
 
-**✅ Final Model Selection**
+## **✅ Final Model Selection**
 
 The Forward Selection model was selected as the final model since it was the most aligned with the focal research questions of the project:
  
@@ -181,15 +181,15 @@ Although the Stepwise and Backward models had slightly higher specificity or pre
 
 As a result, the Forward model is the best and most suitable selection for understanding the likelihood of churn and the most influential factors to drive actions to detect customer churn.
 
-**📉 Final Model Equation**
+## **📉 Final Model Equation**
 
 See Project_Report.pdf → p.15 for the logistic regression equation and odds analysis.
 
-**📁 Files**
+## **📁 Files**
 
 Project_Report.pdf: Detailed statistical report with data insights, EDA, modeling, and conclusions.
 
-**🧠 Insights**
+## **🧠 Insights**
 
 In studying patterns of churn within our subscriber data, a few themes emerged:
  
@@ -207,7 +207,7 @@ Standard plan customers stood out for the wrong reason. Standard plan subscriber
 
 Parents who use parental controls stick around longer. This may make sense, enabling parental controls was probably a signal of being more involved in their everyday family lives, also therefore, a stronger reason to have a continued subscription.
 
-**🎯 Conclusion**
+## **🎯 Conclusion**
 
 The analysis showed churn is not an attribute influenced by one factor; churn is influenced by customer behaviours, perceived quality of experience, situational factors that influence retention outcomes. 
 Longer-term users and TV watchers are more likely to stay than newer customers, electronic check users, and customers who opened frequent support tickets. In fact, even long-term active customers can churn if their expectations are not met; for example, Comedy users and customers on the Standard subscription plan.
@@ -220,8 +220,11 @@ Revisit the Standard subscription tier to deliver clear value.
 Dig into content-related satisfaction — especially with genres that have high churn, such as Comedy.
 Track support ticket frequency to find early indicators of chu
 
-**📌 Author
+## **📌 Author
+
 Divya Pullivarthi
+
 Project completed for course DSC 423: Data Analysis and Regression
+
 LinkedIn**
 
