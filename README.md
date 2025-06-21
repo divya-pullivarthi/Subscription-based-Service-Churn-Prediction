@@ -12,7 +12,9 @@ What is the likelihood of churn for a specific customer segment or profile?
 
 Which customer attributes or behaviors are most strongly associated with churn?
 
-##🧾 **Dataset Source:** Kaggle - Predictive Analytics for Customer Churn Dataset 
+## 🧾 **Dataset Source:** 
+
+Kaggle - Predictive Analytics for Customer Churn Dataset 
 
 _**Link:** https://www.kaggle.com/datasets/safrin03/predictive-analytics-for-customer-churn-dataset?resource=download&select=train.csv_
 
@@ -220,11 +222,11 @@ Revisit the Standard subscription tier to deliver clear value.
 Dig into content-related satisfaction — especially with genres that have high churn, such as Comedy.
 Track support ticket frequency to find early indicators of chu
 
-## **📌 Author
+## **📌 Author**
 
 Divya Pullivarthi
 
 Project completed for course DSC 423: Data Analysis and Regression
 
-LinkedIn**
+LinkedIn
 
