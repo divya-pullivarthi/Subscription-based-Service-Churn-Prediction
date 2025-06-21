@@ -12,7 +12,7 @@ What is the likelihood of churn for a specific customer segment or profile?
 
 Which customer attributes or behaviors are most strongly associated with churn?
 
-## 🧾 **Dataset Source:** 
+## 🧾 **Dataset Source** 
 
 Kaggle - Predictive Analytics for Customer Churn Dataset 
 
