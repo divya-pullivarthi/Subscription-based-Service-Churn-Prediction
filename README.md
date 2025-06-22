@@ -228,5 +228,5 @@ Divya Pullivarthi
 
 Project completed for course DSC 423: Data Analysis and Regression
 
-LinkedIn
+[LinkedIn](https://www.linkedin.com/in/divya-pullivarthi-992970198/)
 
