@@ -4,6 +4,23 @@
 
 This project uses logistic regression modeling to analyze and predict customer churn for a subscription-based digital service. It identifies behavioral and demographic features that influence whether a customer is likely to cancel their subscription, and supports organizations in developing targeted retention strategies.
 
+## 📖 Table of Contents
+- [🔍 Objective](#-objective)
+- [🧾 Dataset Source](#-dataset-source)
+- [🔧 Sampling Process](#-sampling-process)
+- [🛠 Tools & Techniques](#-tools--techniques)
+- [🧪 Methodology](#-methodology)
+- [🔍 Model Selection Approach](#-model-selection-approach)
+- [🔄 Forward Selection](#-forward-selection)
+- [🔁 Stepwise Selection](#-stepwise-selection)
+- [🔃 Backward Elimination](#-backward-elimination)
+- [✅ Final Model Selection](#-final-model-selection)
+- [📉 Final Model Equation](#-final-model-equation)
+- [📁 Files](#-files)
+- [🧠 Insights](#-insights)
+- [🎯 Conclusion](#-conclusion)
+- [📌 Author](#-author)
+
 ## 🔍 **Objective**
 
 To answer two key questions:
@@ -22,7 +39,7 @@ _**Link:** https://www.kaggle.com/datasets/safrin03/predictive-analytics-for-cus
 
 **Final Used:** 2,226 observations (edited for computational feasibility and balance for the academic project)
 
-## **🔧Sampling Process**
+## **🔧 Sampling Process**
 
 To reduce dataset size while retaining meaningful insights:
 
@@ -58,11 +75,11 @@ Multicollinearity check and removal (TotalCharges dropped due to high correlatio
 
 Outliers and Influential points were checked.
 
-## **🔍Model Selection Approach**
+## **🔍 Model Selection Approach**
 
 SAS supports three model selection methods for logistic regression, and all three were applied:
 
-## **🔄Forward Selection**
+## **🔄 Forward Selection**
 
 Predictors (12):
 AccountAge, MonthlyCharges, ViewingHoursPerWeek, AverageViewingDuration, ContentDownloadsPerMonth, UserRating, SupportTicketsPerMonth, d_subtype2, d_pay3, d_device3, d_genre2, d_ParentalControl
@@ -95,7 +112,7 @@ Precision: 72.83%
 
 F1-Score: 0.6933
 
-## **🔁Stepwise Selection**
+## **🔁 Stepwise Selection**
 
 Predictors (11):
 AccountAge, MonthlyCharges, ViewingHoursPerWeek, AverageViewingDuration, ContentDownloadsPerMonth, UserRating, SupportTicketsPerMonth, d_subtype2, d_device3, d_genre2, d_ParentalControl
@@ -230,3 +247,41 @@ Project completed for course DSC 423: Data Analysis and Regression
 
 [LinkedIn](https://www.linkedin.com/in/divya-pullivarthi-992970198/)
 
+
+
+
+
+
+
+
+
+Of course! This is an excellent project, and a Table of Contents will make it much easier to navigate.
+
+Based on the structure of your `README.md` and the specific formatting you've used (emojis at the start of bolded headers), here is the correctly formatted Table of Contents.
+
+This version accounts for the GitHub Markdown quirk where headers starting with an emoji get a leading hyphen (`-`) in their anchor link.
+
+---
+
+### Correct Table of Contents for Churn Prediction Project
+
+You can copy and paste this entire block directly under your main project title.
+
+```markdown
+## 📖 Table of Contents
+- [🔍 Objective](#-objective)
+- [🧾 Dataset Source](#-dataset-source)
+- [🔧 Sampling Process](#-sampling-process)
+- [🛠 Tools & Techniques](#-tools--techniques)
+- [🧪 Methodology](#-methodology)
+- [🔍 Model Selection Approach](#-model-selection-approach)
+- [🔄 Forward Selection](#-forward-selection)
+- [🔁 Stepwise Selection](#-stepwise-selection)
+- [🔃 Backward Elimination](#-backward-elimination)
+- [✅ Final Model Selection](#-final-model-selection)
+- [📉 Final Model Equation](#-final-model-equation)
+- [📁 Files](#-files)
+- [🧠 Insights](#-insights)
+- [🎯 Conclusion](#-conclusion)
+- [📌 Author](#-author)
+```
